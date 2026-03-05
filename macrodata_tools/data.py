@@ -16,7 +16,7 @@ def compute_inflation(cpi):
     """
     Compute year-over-year inflation
     """
-    inflation = cpi.pct_change(12) * 100
+    inflation = cpi.pct_change(12, fill_method=None) * 100
     inflation.columns = ["Inflation"]
     return inflation
 
