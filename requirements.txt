@@ -2,3 +2,4 @@ pandas
 pandas-datareader
 matplotlib
 seaborn
+scikit-learn
